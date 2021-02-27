@@ -2,6 +2,8 @@
 
 This repo contains Dyllan Ruth's portfolio and SPS projects.
 
+I will be changing my real portfolio completly - DyllanRuth.github.io
+
 To get started:
 
 - Login to [Google Cloud Shell](https://ssh.cloud.google.com/cloudshell/editor)
