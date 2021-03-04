@@ -10,7 +10,12 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
 
-  @Override
+    /**
+     *Added because with code throws an error
+     */
+    private static final long serialVersionUID = 1L;
+
+    @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     response.setContentType("text/html;");
     response.getWriter().println("<h1>Hello world!</h1>");
