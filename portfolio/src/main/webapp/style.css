@@ -1,3 +1,4 @@
+/* Top Right Menu Button */
 *,
 *::before,
 *::after 
@@ -6,7 +7,6 @@
 }
 
 /* Custom Properties */
-
 :root
 {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -31,40 +31,36 @@
 @media (min-width: 800px)
 {
     :root{
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.75rem;
-        --fs-body: 1.12rem;
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.75rem;
+    --fs-body: 1.12rem;
     }
 }
 
 /* General styles */
 
-html {
-    scroll-behavior: smooth;
+html{
+  scroll-behavior: smooth;
 }
 
-body
-{
-    background: var(--clr-light);
-    color: var(--clr-dark);
-    margin: 0;
-    font-family: var(--ff-primary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
-
+body{
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
 }
 
-section {
-    padding: 5em 2em;
+section{
+  padding: 5em 2em;
 }
 
-img
-{
-    display: block;
-    max-width: 100%;
+img{
+  display: block;
+  max-width: 100%;
 }
-
 
 :focus{
     outline: 3px solid var(--clr-accent);
@@ -82,46 +78,39 @@ img
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
-    transition: transform 200ms ease-in-out;
-    
+    transition: transform 200ms ease-in-out;  
 }
 
 .btn:hover{
-    transform: scale(1.1);
-    
+    transform: scale(1.1);  
 }
 
 /*typography*/
 
 strong{ font-weight: var(--fw-bold); }
-
 h1,
 h2,
 h3 {
-    line-height: 1;
-    margin: 0;
+line-height: 1;
+margin: 0;
 }
 h1 {font-size: var(--fs-h1);}
 h2 {font-size: var(--fs-h2);}
 h3 {font-size: var(--fs-h3);}
 
-.section__title
-{
+.section__title{
     margin-bottom: .25em;
 }
 
-.section__title--intro
-{
+.section__title--intro{
     font-weight: var(--fw-reg) ;
 }
 
-.section__title--intro strong 
-{
+.section__title--intro strong {
     display: block;
 }
 
-.section__subtitle
-{
+.section__subtitle{
     margin: 0;
     font-size: var(--fs-h3);
 }
@@ -322,25 +311,21 @@ nav{
     margin: 0 auto;
 }
 
-@media (min-width: 800px)
-{
-    .services 
-    {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+@media (min-width: 800px){
+    .services {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     }
-    .service + .service
-    {
-        margin-left: 3em;
+    .service + .service{
+    margin-left: 3em;
     }
 }
 
 .about-me{
     max-width: 1000px;
     margin: 0 auto;
-
 }
 
 .about-me__img{
@@ -353,11 +338,10 @@ nav{
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
-        "title img"
-        "subtitle img"
-        "text img";
+        'title img'
+        'subtitle img'
+        'text img';
         grid-column-gap: 2em;
-
     }
     .section__title--about{
         grid-area: title;
