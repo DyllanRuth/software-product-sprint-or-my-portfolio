@@ -1,6 +1,8 @@
 # Google Software Product Sprint
 
-This repo contains the projects you'll work on throughout SPS.
+This repo contains Dyllan Ruth's portfolio and SPS projects.
+
+I will be changing my real portfolio completly - DyllanRuth.github.io
 
 To get started:
 
