@@ -1,14 +1,12 @@
 /* Top Right Menu Button */
 *,
 *::before,
-*::after 
-{
+*::after {
     box-sizing: border-box;
 }
 
 /* Custom Properties */
-:root
-{
+:root{
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace ;
 
@@ -28,8 +26,7 @@
         0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px)
-{
+@media (min-width: 800px){
     :root{
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -400,6 +397,13 @@ nav{
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
+}
+
+#map {
+  border: thin solid black;
+  height: 500px;
+  width: 100%;
+ 
 }
 
 .footer a {
