@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family-Source+Code+Pro:400,980|Source+Sans+Pro:380,900">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 </head>
 
   <body>
@@ -52,7 +52,7 @@
         </div>
         </div> <!--3 columns close-->
         <a href="Dyllan Ruth's 2021 Resume Final.pdf" target="_blank" class="btn">Resume</a>
-        <a href="#work"  class="btn">Projects</a>
+        <a href="portfolio-item.html"  class="btn">Projects</a>
         <p>Click here for a random phrase:</p>
         <button onclick="RandomGreeting()">Phrase!</button>
         <ul id="container-greeting"></ul>
@@ -87,6 +87,27 @@
         <a class="social-list__link" href="https://github.com/DyllanRuth">
         <i class="fab fa-github"></i></a></li>
       </ul>
+
+      <div id="contactform" class="footer">
+          <h1>Contact Me</h1> 
+          <form action="/contact-me" method="POST">
+          <div class="contactinfo">
+              <label for="contactEmail" class="form-label">Email address: </label>
+              <input type="email" class="service" id="email" name="email" required>
+          </div>
+          <div class="contactinfo">
+              <label for="message" class="form-label">Message: </label>
+              <textarea class="service" id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>          
+        </form>
+      </div>
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+       <script src="index.js"></script>
+       <div id="map"></div>
+       <script
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIg_lSuba8TNJNn-UUalTSP6M6vEOOGG0&callback=initMap&libraries=&v=weekly"
+       async></script>
     </footer>
     <script src="index.js"></script>
   </body>
